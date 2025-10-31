@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon and touch icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="photos/logo.png">
+    <link rel="apple-touch-icon" href="photos/logo.png">
+    <meta name="msapplication-TileImage" content="photos/logo.png">
+
+    <title class="title">La Vera Bellezza</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="photos/logo.png" alt="La Vera Bellezza" width="40" height="40" class="d-inline-block align-text-top me-2">
+                    <span class="logo-text">La Vera Bellezza</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon nav-btn"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Circa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contatto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <img src="photos/hero01.png" alt="Angelo Holding pizza" id="hero-img">
+                <div class="hero-text">
+                    <h1>La Verra Bellezza</h1>
+                    <p>Benvenuti a La Verra Bellezza, dove ogni pizza racconta una storia.</p>
+                    <a href="#menu" id="menu-link">Nostro Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="up">
+                    <a href="#" class="box">
+                        <img src="photos/home.png" alt="">
+                        <p>Casa</p>
+                    </a>
+                    <a href="#about" class="box">
+                        <img src="photos/about.png" alt="">
+                        <p>Circa</p>
+                    </a>
+                    <a href="#menu" class="box">
+                        <img src="photos/menu.png" alt="">
+                        <p>Menu</p>
+                    </a>
+                    <a href="#contact" class="box">
+                        <img src="photos/contact.png" alt="">
+                        <p>Contatto</p>
+                    </a>
+                    
+                </div>
+                <div class="down">
+                    <div class="map-cover">
+                        <h2>Dove Siamo</h2>
+                        <div class="map-container">
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d751.7890159811045!2d14.331192066187503!3d41.08743664527895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133a55cd5d6cabbb%3A0x3f04fd98720314b6!2sRistorante%20Pizzeria%20La%20Vera%20Bellezza!5e0!3m2!1sen!2sit!4v1761401312516!5m2!1sen!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="cover"><img src="photos/bg06.jpg" alt=""></div>
+                    <div class="left">
+                        <h2>La Verra Bellezza</h2>
+                        <p>La Verra Bellezza nasce da un semplice sogno: per portare il vero gusto della cucina familiare italiana nella nostra comunità. Ogni ricetta che prepariamo ha una storia alle spalle. La salsa? Tramandato dalla nonno e nonna. La crosta? Allungato a mano come la nostra famiglia ha sempre fatto. Le risate? È originale al 100%, non è necessaria alcuna ricetta. Quando varchi le nostre porte, non sei solo un cliente, sei una famiglia.</p>
+                        <a href="#menu" id="menu-link">Nostro Menu</a>
+                    </div>
+                    <div class="cover"><img src="photos/bg03.jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>Nostro Menu</h2>
+            <!--<div class="btn-container">
+               <button class="btn-pizza">Pizze</button> 
+               <button class="btn-drink">Drinks</button>
+               <button class="btn-pasta">Pasta</button>
+            </div>-->
+            <div class="menu-container">
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <!-- Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
