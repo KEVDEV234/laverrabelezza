@@ -162,7 +162,6 @@ body {
             background-color: black;
             width: 100%;
             padding: 10px;
-            box-shadow: 2px 2px 8px #115395;
             overflow: hidden;
 
         .cover {
@@ -337,6 +336,7 @@ body {
         gap: 2px;
         text-align: center;
         padding: 0 15px;
+        margin-top: 40px;
     }
     .hero-text {
         margin-top: 20px;
